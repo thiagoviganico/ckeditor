@@ -1,0 +1,54 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/bidi/icons/hidpi
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+bidiltr.png
+file
+
+
+
+
+2013-10-08T18:03:13.234000Z
+6c11a20d3f2aee3890d163c714db76f4
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+
+bidirtl.png
+file
+
+
+
+
+2013-10-08T18:03:13.229000Z
+cb4357c41b35084a10ea91b6f0cb8873
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+

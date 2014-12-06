@@ -1,0 +1,208 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-11-03T23:02:16.330010Z
+14
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+.buildpath
+file
+
+
+
+
+2013-10-08T18:13:52.934000Z
+fd6a301982c5c6639c7d01d082296ec7
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+.gitattributes
+file
+
+
+
+
+2013-10-08T18:03:54.786000Z
+c79dd0a81073cca367fba54470f26aec
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+.mailmap
+file
+
+
+
+
+2013-10-08T18:03:54.489000Z
+a36f19698b71046d967f538bd8fda414
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+.project
+file
+
+
+
+
+2013-10-08T18:13:52.963000Z
+c436d00cff523aa627592034a97d65b7
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+.settings
+dir
+
+CHANGES.md
+file
+
+
+
+
+2013-10-08T18:03:54.783000Z
+be7bc4bb0732897254b91a6a82c97f85
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+LICENSE.md
+file
+
+
+
+
+2013-10-08T18:03:51.780000Z
+167030b12f00d016532a860bed5d29ed
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+README.md
+file
+
+
+
+
+2013-10-08T18:03:54.482000Z
+8bc217852e2c1ae5e1b4d7da36f0706c
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+TesteWCAG2.html
+file
+17
+
+
+
+2013-11-09T01:12:00.782000Z
+dd11471dae69c18f4f61d956d2459b3f
+2013-11-09T01:47:18.167948Z
+17
+thiagoviganico
+
+adapters
+dir
+
+ckeditor.js
+file
+
+
+
+
+2013-10-08T18:03:04.593000Z
+b9758f1278491afa8529ca017ea06287
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+config.js
+file
+
+
+
+
+2013-10-26T17:56:06.723000Z
+f7e93a559d668438a2a31029398e615b
+2013-10-28T20:48:14.031994Z
+11
+thiagoviganico
+
+contents.css
+file
+
+
+
+
+2013-10-08T18:03:51.786000Z
+4b7fb876f6c0a4d5e87c812d7fd13aec
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+core
+dir
+
+dev
+dir
+
+lang
+dir
+
+plugins
+dir
+
+samples
+dir
+
+skins
+dir
+
+styles.js
+file
+
+
+
+
+2013-10-08T18:03:54.486000Z
+1db1e6690a22e59ef7330b8453bcd516
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+teste.html
+file
+17
+
+
+
+2013-11-08T02:48:43.515000Z
+503948556a2f011c07882dac5aa590fb
+2013-11-09T01:47:18.167948Z
+17
+thiagoviganico
+

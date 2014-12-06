@@ -1,0 +1,46 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/print
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+icons
+dir
+
+lang
+dir
+
+plugin.js
+file
+
+
+
+
+2013-10-08T18:03:43.712000Z
+426999968b772e794fadf48165abf562
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+

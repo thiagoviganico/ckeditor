@@ -1,0 +1,70 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/dev/builder
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-20T23:15:29.744014Z
+10
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+.gitignore
+file
+
+
+
+
+2013-10-08T18:05:36.067000Z
+672502329d2cf7ec0cd0299933a72a3b
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+build-config.js
+file
+
+
+
+
+2013-10-08T18:05:36.074000Z
+66f5beff29abb0eca9da37bd324e665f
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+build.sh
+file
+
+
+
+
+2013-10-08T18:05:36.070000Z
+be09f6ff46dae7cdb83db3a518510af1
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+ckbuilder
+dir
+
+release
+dir
+

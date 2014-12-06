@@ -1,0 +1,52 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/templates/dialogs
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-19T13:11:33.275628Z
+7
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+templates.css
+file
+
+
+
+
+2013-10-08T18:03:44.882000Z
+57500b667f456e7a314b50eb889c5bd0
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+templates.js
+file
+
+
+
+
+2013-10-19T16:33:00.327000Z
+33cdbe15a8a2212cee39728932c2a993
+2013-10-19T13:11:33.275628Z
+7
+thiagoviganico
+

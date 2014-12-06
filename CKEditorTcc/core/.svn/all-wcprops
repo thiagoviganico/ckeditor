@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/3/trunk/CKEditorTcc/core
+END
+plugindefinition.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/plugindefinition.js
+END
+selection.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/selection.js
+END
+loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/loader.js
+END
+ckeditor_base.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/ckeditor_base.js
+END
+editor_basic.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/editor_basic.js
+END
+scriptloader.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/scriptloader.js
+END
+dtd.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/dtd.js
+END
+editor.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/editor.js
+END
+style.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/style.js
+END
+dataprocessor.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/dataprocessor.js
+END
+focusmanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/focusmanager.js
+END
+htmldataprocessor.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmldataprocessor.js
+END
+keystrokehandler.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/keystrokehandler.js
+END
+ui.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/ui.js
+END
+commanddefinition.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/commanddefinition.js
+END
+editable.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/editable.js
+END
+tools.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/tools.js
+END
+eventInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/eventInfo.js
+END
+command.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/command.js
+END
+htmlparser.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser.js
+END
+plugins.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/plugins.js
+END
+_bootstrap.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/_bootstrap.js
+END
+filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/filter.js
+END
+config.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/config.js
+END
+lang.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/lang.js
+END
+env.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/env.js
+END
+template.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/template.js
+END
+skin.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/skin.js
+END
+event.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/event.js
+END
+ckeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/ckeditor.js
+END
+ckeditor_basic.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/ckeditor_basic.js
+END
+dom.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/dom.js
+END
+resourcemanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/resourcemanager.js
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/list/icons
+END
+numberedlist.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/list/icons/numberedlist.png
+END
+numberedlist-rtl.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/list/icons/numberedlist-rtl.png
+END
+bulletedlist-rtl.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/list/icons/bulletedlist-rtl.png
+END
+bulletedlist.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/list/icons/bulletedlist.png
+END

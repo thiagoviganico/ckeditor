@@ -1,0 +1,57 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/pagebreak/icons
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+hidpi
+dir
+
+pagebreak-rtl.png
+file
+
+
+
+
+2013-10-08T18:03:06.764000Z
+e5bf44e2803bf12aaa79208bc33bf39d
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+
+pagebreak.png
+file
+
+
+
+
+2013-10-08T18:03:06.769000Z
+625acbfb79ef0ef7c548312fad2026c8
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+

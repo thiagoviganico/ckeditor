@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/10/trunk/CKEditorTcc/dev/builder
+END
+build-config.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/builder/build-config.js
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/builder/.gitignore
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/builder/build.sh
+END

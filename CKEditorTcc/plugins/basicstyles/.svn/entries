@@ -1,0 +1,46 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/basicstyles
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-28T20:48:14.031994Z
+11
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+icons
+dir
+
+lang
+dir
+
+plugin.js
+file
+16
+
+
+
+2013-11-05T23:18:44.189000Z
+e49e0bf93483d63a619766922d0da574
+2013-11-06T00:25:52.750226Z
+16
+thiagoviganico
+

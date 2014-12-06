@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool
+END
+langtool.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool/langtool.sh
+END
+update_meta_files.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool/update_meta_files.sh
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool/.gitignore
+END
+export_po_files.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool/export_po_files.sh
+END
+config
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool/config
+END
+_common.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool/_common.sh
+END
+fix_plugins.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/CKEditorTcc/dev/langtool/fix_plugins.sh
+END

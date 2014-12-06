@@ -1,0 +1,54 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/colorbutton/icons/hidpi
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+bgcolor.png
+file
+
+
+
+
+2013-10-08T18:03:14.830000Z
+7f4d91d401913000068e27694421094c
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+
+textcolor.png
+file
+
+
+
+
+2013-10-08T18:03:14.825000Z
+8e3cffa1da8be98668c562421fc859f4
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+

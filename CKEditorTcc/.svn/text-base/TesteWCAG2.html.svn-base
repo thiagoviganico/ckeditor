@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>  . </title>
+</head>
+
+     <span>
+<a aria-haspopup="true" aria-labelledby="cke_42_label" role="button" hidefocus="true" tabindex="-1" title="Negrito"  id="cke_42">
+
+<span style="background-image:url(file:///C:/Desenv/eclipseParticular/workspace/CKEditorSemAlteracoes/plugins/basicstyles/icons/bold.png);background-position:0 0px;background-size:16px;"">&nbsp;</span>
+
+<span aria-hidden="false" class="cke_button_label cke_button__bold_label" id="cke_42_label">Negrito</span>
+
+</a>
+
+<!-- <p>texto aleatório <dfn id="placebo">placebo</dfn>, ou <span role="definition" aria-labelledby="placebo">  
+teste teste.</span>
+</p>-->
+
+<!--
+
+
+        function GetChar (event){
+            var chCode = ('charCode' in event) ? event.charCode : event.keyCode;
+            alert ("The Unicode character code is: " + chCode);
+        }
+
+
+
+    documento . onkeydown = keyDownEvent ; 
+    documento . onkeyup = keyUpEvent ;
+
+    var isCtrl =  false ;
+
+    função keyDownEvent ()  { 
+        var keyid =  evento . keyCode ;
+
+        se ( keyid ==  17 )  { 
+            isCtrl =  verdadeiro ; 
+        } 
+    }
+
+    função keyUpEvent ()  { 
+        var keyid =  evento . keyCode ;
+
+        se ( keyid ==  17 )  { 
+            isCtrl =  false ; 
+        }
+
+        se ( keyid ==  89  && isCtrl ==  verdadeiro )  { 
+            alert ( 'CTRL-Y pressionado " );    
+        } 
+    }
+    
+    
+    
+    
+
+
+<head>
+  <li id="bold1"  
+    class="toggleButton"
+    role="button"
+    tabindex="0"
+    aria-pressed="true"
+    aria-labelledby="bold_label"
+    aria-controls="text1"
+      ><img src="http://www.oaa-accessibility.org/media/examples/images/button-bold.png" alt="bold text" align="middle"></li>
+
+<script>
+  function togglePressed(id) {
+  
+    // reverse the aria-pressed state
+    if ($(id).attr('aria-pressed') == 'true') {
+      $(id).attr('aria-pressed', 'false');
+    }
+    else {
+      $(id).attr('aria-pressed', 'true');
+    }
+  }
+  </script>-->
+  
+<!--
+  <style type="text/css">
+    p { margin-left:0em; /* Or another measurement unit, like px */ }
+  </style>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia vestibulum quam sit amet aliquet.</p>
+</body>
+
+<dl title="Nautical terms">
+  <dt>Knot</dt>
+  <dd>
+    <p>A <em>knot</em> is a unit of speed equaling 1 
+      nautical mile per hour (1.15 miles per hour or 1.852 
+      kilometers per hour).</p>
+  </dd>
+  <dt>Port</dt>
+  <dd>
+    <p><em>Port</em> is the nautical term (used on 
+      boats and ships) that refers to the left side
+      of a ship, as perceived by a person facing towards 
+      the bow (the front of the vessel).</p>
+  </dd>
+  <dt>Starboard</dt>
+  <dd>
+    <p><em>Starboard</em> is the nautical term (used 
+      on boats and ships) that refers to the right 
+      side of a vessel, as perceived by a person 
+      facing towards the bow (the front of the vessel).</p>
+  </dd>
+</dl>      -->
+<!--
+<div id="content" role="main">início</div>
+<div id="footer" role="contentinfo">explicação</div>
+-->
+    
+
+<!--
+
+
+<STYLE type="text/css">
+OL.withroman { list-style-type: lower-roman }
+
+ul.navigation {
+  list-style: none; 
+  padding: 0;
+}
+ul.navigation li {
+  display: inline;
+}
+
+ul.navigation {
+ list-style: none; 
+ padding: 0;
+}
+ul.navigation li {
+ display: block; 
+ float: left;
+}
+
+</STYLE>
+
+
+<ul class="navigation" >
+    <li><a href="kitchen.html">Kitchen</a></li>
+    <li><a href="bedbath.html">Bed &amp; Bath</a></li>
+    <li><a href="dining.html">Fine Dining</a></li>
+    <li><a href="lighting.html">Lighting</a></li>
+    <li><a href="storage.html">Storage</a><li>
+</ul> 
+
+
+
+<DL class="navigation">
+  <DT>negrigo
+  <DD>pressione
+    a tecla <EM>l</EM> ou <EM>g</EM>
+  <DT>italico
+  <DD>pressione
+    a tecla <EM>l</EM> ou <EM>g</EM>
+  <DT>sublinhado
+  <DD>pressione
+    a tecla <EM>l</EM> ou <EM>g</EM>
+</DL>
+<!--
+
+<dl>
+<h1>Grupo Clipboard/Desfazer</h1>
+<dt>
+Comando Desfazer,
+<b>pressione CTRL+Z</b>
+</dt>
+<dt>
+Comando Refazer,
+<b>pressione CTRL+Y</b>
+</dt>
+</dl>
+<dl>
+<h1>Grupo Estilos Básicos</h1>
+<dt>
+Comando Negrito,
+<b>pressione CTRL+B</b>
+</dt>
+<dt>
+Comando Itálico,
+<b>pressione CTRL+I</b>
+</dt>
+<dt>
+Comando Sublinhado,
+<b>pressione CTRL+U</b>
+</dt>
+</dl>
+<dl>
+<h1>Grupo Links</h1>
+<dt>
+Comando Inserir/Editar Link,
+<b>pressione CTRL+L</b>
+</dt>
+</dl>
+</div>
+-->
+
+</body>
+</html>

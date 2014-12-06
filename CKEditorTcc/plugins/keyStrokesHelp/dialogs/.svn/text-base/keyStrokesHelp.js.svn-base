@@ -1,0 +1,369 @@
+﻿/**
+ * 				Pegando o nome do comando\ferramenta
+ * 	
+ * listTools[j].groups[x]
+ * Traduzindo o nome das ferramentas:
+ * 	tools = editor.lang.toolbar; alert(tools.toolbarGroups.document);
+ * Traduzindo o nome das ferramentas dinamicamente:
+ * 			tools = editor.lang.toolbar;
+ *			alert(tools.toolbarGroups[listTools[j].name]);
+ * 
+ * TRADUZINDO FERRAMENTAS
+ * tools = editor.lang.basicstyles;
+ * alert(tools.bold); 
+ * DINAMICAMENTE
+ * tools = editor.lang.basicstyles;
+ * alert(tools['bold']); 
+ * 
+ * Lendo todos os grupos e subgrupos
+ * for(var i = 0; i<toolbar.length ; i++){
+ * 	for (var j = 0 ; j < toolbar[i].items.length ; j++) {
+ * 		alert("Grupo: " + toolbar[i].name + "   Item: " + toolbar[i].items[j].name )	
+ * 	}
+ * 
+ * 
+ *
+ *				MOSTRA COMO BUSCAR E LISTAR TODAS OS GRUPOS DE FERRAMENTAS E SEUS ÍTEMS
+ * 
+ * 
+ *
+ */
+
+/**
+ * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or http://ckeditor.com/license
+ */
+
+CKEDITOR.dialog.add( 'keyStrokesHelp', function( editor ) {
+
+	var lang = editor.lang.keyStrokesHelp,
+		id = CKEDITOR.tools.getNextId();
+
+	// CharCode <-> KeyChar.
+	var keyMap = {
+		8: "BACKSPACE",
+		9: "TAB",
+		13: "ENTER",
+		16: "SHIFT",
+		17: "CTRL",
+		18: "ALT",
+		19: "PAUSE",
+		20: "CAPSLOCK",
+		27: "ESCAPE",
+		33: "PAGE UP",
+		34: "PAGE DOWN",
+		35: "END",
+		36: "HOME",
+		37: "LEFT ARROW",
+		38: "UP ARROW",
+		39: "RIGHT ARROW",
+		40: "DOWN ARROW",
+		45: "INSERT",
+		46: "DELETE",
+		91: "LEFT WINDOW KEY",
+		92: "RIGHT WINDOW KEY",
+		93: "SELECT KEY",
+		96: "NUMPAD  0",
+		97: "NUMPAD  1",
+		98: "NUMPAD  2",
+		99: "NUMPAD  3",
+		100: "NUMPAD  4",
+		101: "NUMPAD  5",
+		102: "NUMPAD  6",
+		103: "NUMPAD  7",
+		104: "NUMPAD  8",
+		105: "NUMPAD  9",
+		106: "MULTIPLY",
+		107: "ADD",
+		109: "SUBTRACT",
+		110: "DECIMAL POINT",
+		111: "DIVIDE",
+		112: "F1",
+		113: "F2",
+		114: "F3",
+		115: "F4",
+		116: "F5",
+		117: "F6",
+		118: "F7",
+		119: "F8",
+		120: "F9",
+		121: "F10",
+		122: "F11",
+		123: "F12",
+		144: "NUM LOCK",
+		145: "SCROLL LOCK",
+		186: "SEMI-COLON",
+		187: "EQUAL SIGN",
+		188: "COMMA",
+		189: "DASH",
+		190: "PERIOD",
+		191: "FORWARD SLASH",
+		192: "GRAVE ACCENT",
+		219: "OPEN BRACKET",
+		220: "BACK SLASH",
+		221: "CLOSE BRAKET",
+		222: "SINGLE QUOTE"
+	};
+
+
+	/* *********************************************************************
+	 * 						Funções auxiliares
+	 * 
+	 * *********************************************************************/
+	
+	// Modifier keys override.
+	keyMap[ CKEDITOR.ALT ] = 'ALT';
+	keyMap[ CKEDITOR.SHIFT ] = 'SHIFT';
+	keyMap[ CKEDITOR.CTRL ] = 'CTRL';
+
+	// Sort in desc.
+	var modifiers = [ CKEDITOR.ALT, CKEDITOR.SHIFT, CKEDITOR.CTRL ];
+
+	function representKeyStroke( keystroke ) {
+		var quotient, modifier,
+			presentation = [];
+
+		for ( var i = 0; i < modifiers.length; i++ ) {
+			modifier = modifiers[ i ];
+			quotient = keystroke / modifiers[ i ];
+			if ( quotient > 1 && quotient <= 2 ) {
+				keystroke -= modifier;
+				presentation.push( keyMap[ modifier ] );
+			}
+		}
+
+		presentation.push( keyMap[ keystroke ] || String.fromCharCode( keystroke ) );
+
+		return presentation.join( '+' );
+	}
+	
+	var variablesPattern = /\$\{(.*?)\}/g;
+
+	var replaceVariables = (function() {
+		// Swaps keystrokes with their commands in object literal.
+		// This makes searching keystrokes by command much easier.
+		var keystrokesByCode = editor.keystrokeHandler.keystrokes,
+			keystrokesByName = {};
+
+		for ( var i in keystrokesByCode )
+			keystrokesByName[ keystrokesByCode[ i ] ] = i;
+
+		return function( match, name ) {
+			// Return the keystroke representation or leave match untouched
+			// if there's no keystroke for such command.
+			return keystrokesByName[ name ] ? representKeyStroke( keystrokesByName[ name ] ) : match;
+		};
+	})();
+	
+	/**
+	 * Retrona true se for uma string e false se for de outro tipo
+	 */
+	function isString (parametro) {
+		 return typeof parametro == 'string' ? true : false;
+	}
+
+	/**
+	 * Retrona true se for uma string e false se for de outro tipo
+	 *	Traduzindo: editor.lang['basicstyles'].bold
+	 */
+	function isUiSeparator (parametro) {
+		 return parametro.type == CKEDITOR.UI_SEPARATOR ? true : false;
+	}
+	
+	/**
+	 * MAPEAMENTO DAS FERRAMENTAS E SEUS PLUGINS/LANG
+	 * 
+	 * LINK
+	 *	alert(editor.lang['link']['toolbar'])
+	 * 	
+	 * //EXEMPLO DE COMO PEGAR A FERRMAENTA TRADUZIDA			
+	 * alert(editor.ui.items['Link'].label)
+	 */	
+	function getToolNameTranslate(toolName) {
+		for ( itemName in editor.ui.items ) {
+				if(itemName.toLowerCase() == toolName.toLowerCase()){		
+					return editor.ui.items[ itemName ].label;
+				}
+		}		
+	}
+	
+	/*
+	 * Retorna recebe uma string e retorna a mesma com a primeira maiúscula
+	 */
+	function primeiraLetraMaiuscula(texto) {
+		var str1 = texto.substring(0, 1);
+		var str = texto.replace(str1, str1.toUpperCase());
+		return str;
+	}
+	
+	/* *********************************************************************
+	 * 							MONTA A DIALOG
+	 * 
+	 * Cria a página HTML que será a lista de ajuda para teclas de atalho
+	 ***********************************************************************/
+	// Create the help list directly from lang file entries.
+	function buildHelpContents() {
+		var pageTpl = '<div class="cke_accessibility_legend" role="document" aria-labelledby="' + id + '_arialbl" tabIndex="-1">%1</div>' +
+				'<span id="' + id + '_arialbl" class="cke_voice_label">' + lang.contents + ' </span>',
+/*
+ * TAGS HTML
+ * 	dl => list of definition
+ * 
+ * 
+ * sectionTpl = '<h1>ESTILO BÁSICO %1</h1><dl>%2</dl>',
+ * 
+ */
+			sectionTpl = '<dl><h1>%1</h1>%2</dl>',//dl possibilidat o usuário utilizar a tecla L para passar os grupos
+			itemTpl = '<dt>%1, %2</dt>';//dt possibilita o usuário utilizar a telca I para passar os ítens
+
+
+
+		var pageHtml = [],
+			sections = lang.legend, //armazena o arquivo de idioma deste plugin, grupo, items, title, legend.. 
+			section = sections[ 0 ], //section.name; para utilizar Grupo ${nomedogrupo}
+			items = section.items, //só tem um ítem pois será dinâmico
+			item = items[ 0 ],//item.name; item.legend
+			sectionLgetToolNameTranslateength = sections.length;
+		
+
+		var toolbarPlugin = CKEDITOR.plugins.get( 'toolbar' ), //obtem o objeto toolbar para buscar os grupos e ou items
+		    toolbarLang = editor.lang.toolbar, //para traduzir os grupos de ferramentas
+		    toolbar =  toolbarPlugin.getToolbar(), //toolbar[i].name; toolbar[i].items[j].name Listas de ferramentas, retorna objetos
+		    items='';		 	
+		    
+		/**
+		 * teste para pegar tecla de atalho
+		 */
+	
+var keystrokesByCode = editor.keystrokeHandler.keystrokes,
+keystrokesByName = {};
+
+for ( var i in keystrokesByCode )
+keystrokesByName[ keystrokesByCode[ i ] ] = i;
+
+codigo = keystrokesByName['bold']
+                          
+//alert(representKeyStroke(codigo))
+
+
+
+		countGroup = 1; //para mostrar o número do grupo quando é indefinido/undefined
+		for(var i = 0; i<toolbar.length ; i++){
+			sectionHtml = [],
+			itemsLength = items.length;
+
+			//Verifica se é uma string, quando for um separador nova linha conterá '/'
+			if (isString(toolbar[i])) continue;
+			
+			//Monta a lista de teclas de atalho
+		  	for (var j = 0 ; j < toolbar[i].items.length ; j++) {
+		  		//pega as teclas de atalho
+		  		itemLegendAddDynamic = item.legend+'${'+toolbar[i].items[j].name+'}';
+		  		commandKeyStrokes = itemLegendAddDynamic.replace( variablesPattern, replaceVariables );
+
+				//se não tem tecla de atalho continua, não adiciona na lista		  		
+				if ( commandKeyStrokes.match( variablesPattern ) )
+					continue;
+				//VERIFICA SE O ITEM DO GRUPO É UM SEPARADOR
+		  		if(! isUiSeparator(toolbar[i].items[j])) {//se for separador não adiciona
+		  			/**
+		  			 * basicStyle ok!!
+		  			 * 
+		  			 */
+		  			//obtem o lang do grupo/plugin
+		  			//groupLang = editor.lang[toolbar[i].name];
+		  			toolTranslate = item.name + getToolNameTranslate( primeiraLetraMaiuscula(toolbar[i].items[j].name));
+					sectionHtml.push( itemTpl.replace( '%1', toolTranslate	).replace( '%2', '<b>'+commandKeyStrokes + '</b>'));
+		  		}
+		  	}
+
+		  	//adicionar: só adiciona o grupo se existir teclas de atalho
+		  	if(sectionHtml.length==0)continue;
+		  	
+		  	//Tradução dos grupos: plugin/toolbar/lang/pt-br.js
+		  	//section.name 				+ toolbarLang.toolbarGroups[toolbar[i].name]
+		  	//Grupo (arquivo idioma)	+ traduz o nome do grupo com o arquivo de idioma do plugin toolbar
+//		  	if (toolbar[i].name == undefined) { //verifica se não existe grupos, no caso de ser customizado CKEDITOR.config.toolbar e não por CKEDIOTR.config.toolbarGroups
+//		  		toolbarText = ''
+//		  	} else {
+//		  		toolbarText = section.name + toolbarLang.toolbarGroups[toolbar[i].name]
+//		  		
+//		  	}
+//		  	
+			if (toolbarLang.toolbarGroups[toolbar[i].name] == undefined) {
+				toolbarText = lang.undefined + ' ' +countGroup++;
+			} else {
+				toolbarText = toolbarLang.toolbarGroups[toolbar[i].name]
+			}
+
+		  	pageHtml.push( sectionTpl.replace( '%1', toolbarText = section.name + toolbarText).replace( '%2', sectionHtml.join( '' ) ) );
+
+		}
+
+		return pageTpl.replace( '%1', pageHtml.join( '' ) );
+
+	}
+
+
+	return {
+		title: lang.title,
+		minWidth: 600,
+		minHeight: 400,
+		contents: [
+			{
+			id: 'info',
+			label: editor.lang.common.generalTab,
+			expand: true,
+			elements: [
+				{
+				type: 'html',
+				id: 'legends',
+				style: 'white-space:normal;',
+				focus: function() { this.getElement().focus(); },
+				html: buildHelpContents() + '<style type="text/css">' +
+					'.cke_accessibility_legend' +
+					'{' +
+						'width:400px;' +
+						'height:500px;' +//TODO o tamanho deve ser equivalente a quantidade de ítens
+						'padding-right:5px;' +
+						'overflow-y:auto;' +
+						'overflow-x:hidden;' +
+					'}' +
+					// Some adjustments are to be done for IE6 and Quirks to work "properly" (#5757)
+					'.cke_browser_quirks .cke_accessibility_legend,' +
+					'.cke_browser_ie6 .cke_accessibility_legend' +
+					'{' +
+						'height:390px' +
+					'}' +
+					// Override non-wrapping white-space rule in reset css.
+					'.cke_accessibility_legend *' +
+					'{' +
+						'white-space:normal;' +
+					'}' +
+					'.cke_accessibility_legend h1' +
+					'{' +
+						'font-size: 20px;' +
+						'border-bottom: 1px solid #AAA;' +
+						'margin: 5px 0px 15px;' +
+					'}' +
+					'.cke_accessibility_legend dl' +
+					'{' +
+						'margin-left: 5px;' +
+					'}' +
+					'.cke_accessibility_legend dt' +
+					'{' +
+						'font-size: 13px;' +
+						'font-weight: bold;' +
+					'}' +
+					'.cke_accessibility_legend dd' +
+					'{' +
+						'margin:10px' +
+					'}' +
+					'</style>'
+			}
+			]
+		}
+		],
+		buttons: [ CKEDITOR.dialog.cancelButton ]
+	};
+});

@@ -1,0 +1,57 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/showblocks/icons
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+hidpi
+dir
+
+showblocks-rtl.png
+file
+
+
+
+
+2013-10-08T18:03:51.636000Z
+da21b5ee018be5687a12c5a5de31c237
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+
+showblocks.png
+file
+
+
+
+
+2013-10-08T18:03:51.640000Z
+133ff41644a3702f60d7a2c6bf429c5f
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+

@@ -1,0 +1,67 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/keyStrokesHelp/dialogs
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-28T20:48:14.031994Z
+11
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+Copy of keyStrokesHelp_01.js
+file
+
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/keyStrokesHelp/dialogs/Copy%20of%20keyStrokesHelp_01.js
+
+delete
+2013-10-21T10:38:57.796000Z
+5f7b209c0af3884b8caa549416fb439d
+2013-10-20T23:15:29.744014Z
+10
+thiagoviganico
+
+Copy of keyStrokesHelp_02.js
+file
+
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/keyStrokesHelp/dialogs/Copy%20of%20keyStrokesHelp_02.js
+
+delete
+2013-10-21T10:38:57.836000Z
+1dad51121b90ec5f85f4c91008ca4aed
+2013-10-20T23:15:29.744014Z
+10
+thiagoviganico
+
+keyStrokesHelp.js
+file
+17
+
+
+
+2013-11-08T03:19:50.722000Z
+5b5d2588a0fe434534e4c39d3546f7d2
+2013-11-09T01:47:18.167948Z
+17
+thiagoviganico
+
+lang
+dir
+

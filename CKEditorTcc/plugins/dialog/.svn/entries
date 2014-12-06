@@ -1,0 +1,55 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/dialog
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+dialogDefinition.js
+file
+
+
+
+
+2013-10-08T18:03:26.419000Z
+fcb47d9b3b40fdba50abbe3326bac9b8
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+plugin.js
+file
+
+
+
+
+2013-10-08T18:03:26.476000Z
+000b520da9ffacc61cd6f57e1d325262
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+samples
+dir
+

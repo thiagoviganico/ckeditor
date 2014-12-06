@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser
+END
+comment.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/comment.js
+END
+element.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/element.js
+END
+basicwriter.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/basicwriter.js
+END
+node.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/node.js
+END
+fragment.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/fragment.js
+END
+text.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/text.js
+END
+filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/filter.js
+END
+cdata.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/CKEditorTcc/core/htmlparser/cdata.js
+END

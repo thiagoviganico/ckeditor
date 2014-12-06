@@ -1,0 +1,57 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/pastefromword/icons
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+hidpi
+dir
+
+pastefromword-rtl.png
+file
+
+
+
+
+2013-10-08T18:03:44.358000Z
+a519b7d68b3059c94689ff74a4740d8e
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+
+pastefromword.png
+file
+
+
+
+
+2013-10-08T18:03:44.311000Z
+426f07c0798e1505ba9e971f2dd47313
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+

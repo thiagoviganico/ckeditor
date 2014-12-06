@@ -1,0 +1,49 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/find
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+dialogs
+dir
+
+icons
+dir
+
+lang
+dir
+
+plugin.js
+file
+
+
+
+
+2013-10-08T18:03:35.530000Z
+f5ff3f19b11a5da8ac30cea5e32e8510
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+

@@ -1,0 +1,190 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/dev/langtool/meta
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+ckeditor.core
+dir
+
+ckeditor.plugin-a11yhelp-dialogs
+dir
+
+ckeditor.plugin-about
+dir
+
+ckeditor.plugin-basicstyles
+dir
+
+ckeditor.plugin-bidi
+dir
+
+ckeditor.plugin-blockquote
+dir
+
+ckeditor.plugin-clipboard
+dir
+
+ckeditor.plugin-colorbutton
+dir
+
+ckeditor.plugin-colordialog
+dir
+
+ckeditor.plugin-contextmenu
+dir
+
+ckeditor.plugin-devtools
+dir
+
+ckeditor.plugin-div
+dir
+
+ckeditor.plugin-docprops
+dir
+
+ckeditor.plugin-elementspath
+dir
+
+ckeditor.plugin-fakeobjects
+dir
+
+ckeditor.plugin-find
+dir
+
+ckeditor.plugin-findandreplace
+dir
+
+ckeditor.plugin-flash
+dir
+
+ckeditor.plugin-font
+dir
+
+ckeditor.plugin-format
+dir
+
+ckeditor.plugin-forms
+dir
+
+ckeditor.plugin-horizontalrule
+dir
+
+ckeditor.plugin-iframe
+dir
+
+ckeditor.plugin-image
+dir
+
+ckeditor.plugin-indent
+dir
+
+ckeditor.plugin-justify
+dir
+
+ckeditor.plugin-link
+dir
+
+ckeditor.plugin-list
+dir
+
+ckeditor.plugin-liststyle
+dir
+
+ckeditor.plugin-maximize
+dir
+
+ckeditor.plugin-newpage
+dir
+
+ckeditor.plugin-pagebreak
+dir
+
+ckeditor.plugin-pastefromword
+dir
+
+ckeditor.plugin-pastetext
+dir
+
+ckeditor.plugin-placeholder
+dir
+
+ckeditor.plugin-preview
+dir
+
+ckeditor.plugin-print
+dir
+
+ckeditor.plugin-removeformat
+dir
+
+ckeditor.plugin-save
+dir
+
+ckeditor.plugin-scayt
+dir
+
+ckeditor.plugin-selectall
+dir
+
+ckeditor.plugin-showblocks
+dir
+
+ckeditor.plugin-smiley
+dir
+
+ckeditor.plugin-sourcearea
+dir
+
+ckeditor.plugin-specialchar
+dir
+
+ckeditor.plugin-specialchar-dialogs
+dir
+
+ckeditor.plugin-spellcheck
+dir
+
+ckeditor.plugin-stylescombo
+dir
+
+ckeditor.plugin-table
+dir
+
+ckeditor.plugin-templates
+dir
+
+ckeditor.plugin-toolbar
+dir
+
+ckeditor.plugin-uicolor
+dir
+
+ckeditor.plugin-undo
+dir
+
+ckeditor.plugin-wsc
+dir
+

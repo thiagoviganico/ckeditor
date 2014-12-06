@@ -1,0 +1,74 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/samples/assets
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+inlineall
+dir
+
+outputxhtml
+dir
+
+posteddata.php
+file
+
+
+
+
+2013-10-08T18:03:54.661000Z
+d06585f73475a3e693c897e715cbd5dd
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+sample.css
+file
+
+
+
+
+2013-10-08T18:03:54.632000Z
+cb4329f1681a1b1069ddf623df6cd4c7
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+sample.jpg
+file
+
+
+
+
+2013-10-08T18:03:54.576000Z
+2716e017a7dda32657f9fa50cb484c5f
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+has-props
+
+uilanguages
+dir
+

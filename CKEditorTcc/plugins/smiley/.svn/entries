@@ -1,0 +1,52 @@
+8
+
+dir
+14
+https://ckeditor-tcc.googlecode.com/svn/trunk/CKEditorTcc/plugins/smiley
+https://ckeditor-tcc.googlecode.com/svn
+
+
+
+2013-10-08T20:41:38.263863Z
+3
+thiagoviganico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10326941-90ce-5574-57fb-e6ec76eeb377
+
+dialogs
+dir
+
+icons
+dir
+
+images
+dir
+
+lang
+dir
+
+plugin.js
+file
+17
+
+
+
+2013-11-06T12:03:01.818000Z
+c26fd5df71fcbaa73a1e5d29dd678847
+2013-11-09T01:47:18.167948Z
+17
+thiagoviganico
+

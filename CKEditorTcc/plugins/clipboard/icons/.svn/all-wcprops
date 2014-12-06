@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/clipboard/icons
+END
+paste.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/clipboard/icons/paste.png
+END
+copy.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/clipboard/icons/copy.png
+END
+cut.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/clipboard/icons/cut.png
+END
+paste-rtl.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/clipboard/icons/paste-rtl.png
+END
+cut-rtl.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/clipboard/icons/cut-rtl.png
+END
+copy-rtl.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/CKEditorTcc/plugins/clipboard/icons/copy-rtl.png
+END
